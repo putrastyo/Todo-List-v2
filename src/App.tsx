@@ -9,7 +9,7 @@ const App = () => {
   const { setItem, getItem } = useLocalStorage("todos");
 
   return (
-    <div className="bg-secondary h-screen overflow-y-hidden pb-10 font-oswald">
+    <div className="bg-secondary h-screen overflow-y-hidden font-oswald">
       <Header todos={todos} setItem={setItem} setTodos={setTodos} />
 
       <TodoList
@@ -18,6 +18,10 @@ const App = () => {
         setTodos={setTodos}
         getItem={getItem}
       />
+
+      <div className="text-center text-primary text-xs mt-3">
+        <a href="https://www.instagram.com/putrastyo_/">@putrastyo_</a>
+      </div>
     </div>
   );
 };

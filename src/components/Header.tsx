@@ -23,7 +23,7 @@ const Header = ({ todos, setItem, setTodos }: HeaderProps) => {
         SPecto
       </h1>
       <button
-        className="bg-primary border-4 border-secondary rounded-full absolute left-1/2 bottom-0 -translate-x-1/2  translate-y-1/2 w-12 h-12 transition-all duration-150 hover:border-0"
+        className="bg-primary border-4 border-secondary rounded-full absolute left-1/2 bottom-0 -translate-x-1/2  translate-y-1/2 w-12 h-12"
         onClick={() => setShowAddForm((prev) => !prev)}
       >
         <img
