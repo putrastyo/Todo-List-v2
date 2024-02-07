@@ -9,7 +9,7 @@ const App = () => {
   const { setItem, getItem } = useLocalStorage("todos");
 
   return (
-    <div className="bg-secondary h-screen overflow-y-hidden font-oswald">
+    <div className="bg-secondary h-dvh overflow-y-hidden font-oswald">
       <Header todos={todos} setItem={setItem} setTodos={setTodos} />
 
       <TodoList
